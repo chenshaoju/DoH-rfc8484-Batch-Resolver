@@ -22,6 +22,18 @@ A lightweight Python script that resolves domain names via **DNS-over-HTTPS (DoH
 python doh-rfc8484-resolver.py [-4 | -6]
 ```
 
+## Proxy support
+Before executing the script, you can set environment variables to resolve the domain name through a proxy.
+
+For Windows:
+```
+set https_proxy=http://127.0.0.1:8080
+```
+For Linux/MacOS:
+```
+export https_proxy=http://127.0.0.1:8080
+```
+
 ### Options
 
 | Flag     | Description                              |
